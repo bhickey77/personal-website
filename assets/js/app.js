@@ -22,7 +22,7 @@ $(function () {
 		}
 		else {
 			$('#home').tubular({
-				videoId: 'TtkDhs9zThQ'
+				videoId: '-Z4gzc6Koz8?rel=0'
 			}); // where videoId is the YouTube ID.
 		}
 	
