@@ -10,7 +10,7 @@ $(function () {
 				(Modernizr.mq('(max-width:705px)')) ? 2 : 
 				(Modernizr.mq('(max-width:768px)')) ? 3 : 4;
 	}
-	
+		
 	/* ---------------------------------------------------------
 	 *	Background
 	 */
