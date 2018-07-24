@@ -1727,3 +1727,11 @@ lesshat-selector {
   font-weight: 700;
   margin-bottom: 5px;
 }
+
+.portfolio-center{
+  margin: 0 auto;
+}
+
+.portfolio-center-container{
+  width: 100%;
+}
