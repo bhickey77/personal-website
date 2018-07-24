@@ -1,7 +1,7 @@
 <?php
 
 	// Contact
-	$to = 'YOUR-EMAIL-ADDRESS';
+	$to = 'bhickey77@gmail.com';
     $subject = 'Subject here...';
 
 ?>
