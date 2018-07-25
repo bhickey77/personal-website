@@ -125,16 +125,23 @@ $(function () {
 	 */
 	
 	$("#scroll").click(function () {
-		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-			if (target.length) {
-				$('html,body').animate({
-					scrollTop: target.offset().top
-				}, 1200);
-				return false;
-			}
-		}
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $('#about').offset().top - 40
+		}, 1000);	
+		// if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+		// 	var target = $(this.hash);
+		// 	target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		// 	if (target.length) {
+		// 		$('html,body').animate({
+		// 			scrollTop: target.offset().top
+		// 		}, 1200);
+		// 		return false;
+		// 	}
+		// }
+	});
+	$(".navbar-nav").find("a").on("click", function(e){
+		e.preventDefault();
+		
 	});
 	
 	
