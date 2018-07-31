@@ -1293,7 +1293,7 @@ form.signup button.btn {
   overflow: hidden;
   cursor: pointer;
   color: rgba(255, 255, 255, 0);
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.65);
   font-size: 16px;
   font-weight: 700;
   visibility: visible;
@@ -1310,12 +1310,28 @@ form.signup button.btn {
   display: inline-block;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 25%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.overlay .title {
+.overlay div {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.overlay .repo {
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  -ms-transform: none;
+}
+.overlay .site {
   z-index: 9999;
   text-transform: uppercase;
   font-size: 15px;
@@ -1323,9 +1339,17 @@ form.signup button.btn {
   font-weight: 400;
   -ms-transform: none;
 }
+.overlay .title {
+  z-index: 9999;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  -ms-transform: none;
+}
 .overlay .category {
   color: #ddd;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 300;
   margin-top: 20px;
 }
@@ -1343,7 +1367,7 @@ form.signup button.btn {
     width: 50%;
   }
   .overlay .title {
-    font-size: 13px;
+    font-size: 24px;
     width: 90%;
   }
 }
@@ -1354,7 +1378,7 @@ form.signup button.btn {
     width: 33.333333333%;
   }
   .overlay .title {
-    font-size: 13px;
+    font-size: 24px;
     width: 90%;
   }
 }
@@ -1365,7 +1389,7 @@ form.signup button.btn {
     width: 25%;
   }
   .overlay .title {
-    font-size: 13px;
+    font-size: 24px;
     width: 90%;
   }
 }
