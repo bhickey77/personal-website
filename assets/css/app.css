@@ -1015,6 +1015,9 @@ form.signup button.btn {
  *	Tubular
  * --------------------------------------------------------- */
 #tubular-container {
+  position: absolute;
+  top: -30px;
+  left: -30px;
   z-index: -2 !important;
 }
 #tubular-shield {
